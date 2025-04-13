@@ -1,0 +1,24 @@
+.button {
+  all: unset;
+  cursor: pointer;
+  border-radius: 16px;
+  width: 160px;
+  height: 48px;
+  border: none;
+  background: #3f51b5;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 129%;
+  text-align: center;
+  color: #fbfbfb;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.button:hover,
+.button:focus {
+  background: #1f3cd4;
+  border: none;
+}

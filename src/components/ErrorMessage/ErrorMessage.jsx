@@ -1,6 +1,6 @@
-// import css from "./ErrorMessage.module.css";
+import css from "./ErrorMessage.module.css";
 
 const ErrorMessage = ({ error }) => {
-  return <p style={{ color: "red" }}>{error}</p>;
+  return <p className={css.message}>{error}</p>;
 };
 export default ErrorMessage;
