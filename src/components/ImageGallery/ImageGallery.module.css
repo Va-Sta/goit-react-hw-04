@@ -4,9 +4,8 @@
   flex-direction: row;
   flex-wrap: wrap;
   padding: 0;
-  /* justify-content: space-between; */
   justify-content: space-evenly;
-  row-gap: 0.5rem;
+  row-gap: 4px;
 }
 
 .item {
